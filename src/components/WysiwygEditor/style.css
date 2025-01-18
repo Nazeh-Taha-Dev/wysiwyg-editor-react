@@ -1,0 +1,40 @@
+/* WysiwygEditor.css */
+.wysiwyg-editor {
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: var(--background-color);
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.toolbar button {
+  padding: 5px 10px;
+  border: 1px solid var(--toolbar-button-border);
+  border-radius: 3px;
+  background-color: var(--toolbar-button-bg);
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background-color: var(--toolbar-button-hover-bg);
+}
+
+.editor-area:focus {
+  outline: none;
+  border-color: var(--editor-focus-border);
+  box-shadow: 0 0 5px var(--editor-focus-shadow);
+}
+
+.public-DraftEditor-content {
+  min-height: 100px;
+  background: var(--toolbar-button-bg);
+  border: 1px solid var(--toolbar-button-border);
+  padding: 10px;
+}

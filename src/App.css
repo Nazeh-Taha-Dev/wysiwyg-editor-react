@@ -1,0 +1,25 @@
+:root {
+  --border-color: #ddd;
+  --background-color: #f9f9f9;
+  --toolbar-button-border: #ccc;
+  --toolbar-button-bg: #fff;
+  --toolbar-button-hover-bg: #e6e6e6;
+  --editor-border-color: #ccc;
+  --editor-focus-border: #007bff;
+  --editor-focus-shadow: rgba(0, 123, 255, 0.5);
+  --font-family: 'Arial', sans-serif;
+  --font-size: 1rem;
+  --line-height: 1.5;
+}
+
+.container h1 {
+  color: #fff;
+}
+.style-overwrite-class{
+  background-color: salmon !important;
+}
+.style-overwrite-class .toolbar button {
+  background-color: #03A9F4;
+  color: #fff;
+}
+
