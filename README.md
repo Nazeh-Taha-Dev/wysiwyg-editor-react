@@ -9,23 +9,32 @@ A flexible, reusable WYSIWYG editor component built with React and `draft-js`. I
 - Loading state with a spinner
 - Memoized state management for better performance
 
-## Installation
+## Steps to Run the Project Locally
 
-```sh
+### Step 1:Clone the Repository
+
+```bash
+git clone https://github.com/Nazeh-Taha-Dev/wysiwyg-editor-react.git
+cd wysiwyg-editor-react-v2
+```
+
+### Step 2:Install Dependencies
+Ensure you have NodeJs (v16+ recommended) installed, then run:
+
+```bash
 npm install
 ```
 
-## Start App
+### Step 3:Start the Development Server
 
-```sh
+```bash
 npm start
 ```
 
-## Test App
+### Step 4: Access the Application
 
-```sh
-npm test
-```
+Open your browser and navigate to:
+http://localhost:5173/
 
 ## Usage
 
