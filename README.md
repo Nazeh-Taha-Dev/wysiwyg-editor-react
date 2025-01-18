@@ -8,7 +8,9 @@ A flexible, reusable WYSIWYG editor component built with React and `draft-js`. I
 - Customizable toolbar buttons
 - Loading state with a spinner
 - Memoized state management for better performance
-
+## Life Demo
+- [wysiwyg editor react Link](https://nazeh-taha-dev.github.io/wysiwyg-editor-react/)
+---
 ## Steps to Run the Project Locally
 
 ### Step 1:Clone the Repository
