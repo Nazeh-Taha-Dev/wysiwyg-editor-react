@@ -79,7 +79,7 @@ export default App;
 | `className`    | `string`                                 | Custom CSS class |
 | `style`        | `React.CSSProperties`                    | Inline styles |
 | `isLoading`    | `boolean`                                | Displays a spinner when `true` |
-| `renderToolbar`| `Array<"Bold" | "Italic" | "Underline">` | Custom toolbar buttons |
+| `renderToolbar`| `boolean` `Italic` `Underline` `as array`| Custom toolbar buttons |
 
 ## Code Quality
 - Uses `React.memo` for performance optimization
